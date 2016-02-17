@@ -1,0 +1,27 @@
+notes
+-----
+
+motion2.ino - uses DMP
+
+// I2C device class (I2Cdev) demonstration Arduino sketch for MPU6050 class using DMP (MotionApps v2.0)
+// 6/21/2012 by Jeff Rowberg <jeff@rowberg.net>
+// Updates should (hopefully) always be available at https://github.com/jrowberg/i2cdevlib
+
+
+motion3 - does not use t_3 (i thinks standard i2c wire library)
+
+/* MPU6050 Basic Example with IMU  
+ by: Kris Winer
+ date: May 10, 2014
+ license: Beerware - Use this code however you'd like. If you 
+ find it useful you can buy me a beer some time.
+ 
+ Demonstrate  MPU-6050 basic functionality including initialization, accelerometer trimming, sleep mode functionality as well as
+ parameterizing the register addresses. Added display functions to allow display to on breadboard monitor. 
+ No DMP use. We just want to get out the accelerations, temperature, and gyro readings.
+
+
+
+ problems with current sketch:
+ 	- cannot calibrate when started vertically?
+ 	- same side values on both sides of 0 (no positive to negative change)
